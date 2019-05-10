@@ -1,0 +1,131 @@
+/* Global Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Utility Styles */
+
+.center-text {
+    text-align: center;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    padding: 40px;
+    margin-bottom: 10px;
+}
+
+/* Header Styles */
+
+.logo {
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    height: 30%;
+}
+
+.shirt-head {
+    color: #C45480;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Navigation Styles */
+
+.pageTopper {
+    display: flex;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    background-color: rgba(245, 164, 200, 0.37);
+    height: 25px;
+    width: 90%;
+    padding-left: 100px;
+    padding-right: 30%;
+}
+
+.topButton {
+    color: #C45480;
+    border: none;
+    background-color: rgba(255, 224, 238, 0.185);
+    font-family: fantasy;
+    font-weight: 300;
+    font-size: 12pt;
+}
+
+.searchBar {
+    width: 250px;
+    height: 40px;
+}
+
+/* Body Styles */
+
+.body {
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    overflow: scroll;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F6CFDB;
+    width: 20px;
+}
+
+/* Left Side */
+
+.left-border {
+    background-color: rgba(245, 164, 200, 0.37);
+    align-self: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 35px;
+    height: 400px;;
+    width: 12%;
+    font-size: 20pt;
+    color: seagreen;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.instagram-tag {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 5px; 
+}
+
+.insta-words {
+    padding: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+.insta-logo {
+    width: 40px;
+}
+  
+
+/* Main Page Styles */
+
+.main-page {
+    color: #C45480;
+}
+
+.article1 {
+    margin-left: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Footer Styles */
+
+.foot {
+    padding: 50px;
+}
